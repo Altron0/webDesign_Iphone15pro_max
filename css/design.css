@@ -1,0 +1,15 @@
+div {
+    color: yellow;
+    background-color: darkorange;
+}
+.title{
+    color: blue;
+}
+caption{
+    width: 250px;
+    height: 75px;
+    font-size: 50px;
+}
+#ulStile{
+    color: gold;
+}
