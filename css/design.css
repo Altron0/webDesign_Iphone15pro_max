@@ -1,9 +1,13 @@
+.name{
+    color: blue;
+}
 div {
-    color: yellow;
+    --text-color_Title: blue;
+    color:var(--text-color_Title);
     background-color: darkorange;
 }
 .title{
-    color: blue;
+    color: var(--text-color_Title);
 }
 caption{
     width: 250px;
@@ -12,4 +16,8 @@ caption{
 }
 #ulStile{
     color: gold;
+}
+#phoneIcon{
+    width: 18px;
+    height: 18px;
 }
